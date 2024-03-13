@@ -39,6 +39,9 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Set Content-Type for .jsx files
+        run: |
+          find ./dist -name "*.jsx" -exec bash -c 'echo "Content-Type: application/javascript" > {}.headers' \;
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
