@@ -16,7 +16,7 @@
     "react-datepicker": "^6.3.0",
     "react-datetime": "^3.2.0",
     "react-dom": "^18.2.0",
-    "react-simple-chatbot": "^0.6.1",
+    "react-simple-chatbot": "^0.5.0",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
